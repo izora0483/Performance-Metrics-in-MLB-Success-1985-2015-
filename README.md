@@ -88,5 +88,5 @@ head(hits_summary)
 - Add predictive modeling (machine learning)
 
 ## Author
-Inaya Zoraiz
+Inaya Zoraiz <br />
 Economics & Information Systems
