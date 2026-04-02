@@ -74,3 +74,18 @@ batting_filtered <- subset(Batting, yearID >= 2000 & yearID <= 2015)
 hits_summary <- aggregate(H ~ playerID, data=batting_filtered, sum, na.rm = TRUE)
 
 head(hits_summary)
+
+## Insights
+- Winning teams rely more on strategic performance metrics than financial spending
+- The game has evolved toward power-based strategies
+- Salary alone does not guarantee success
+
+## Future Improvements
+- Incorporate advanced analytics (e.g., WAR, OPS)
+- Expand to post-2015 data
+- Compare MLB with other leagues
+- Add predictive modeling (machine learning)
+
+## Author
+Inaya Zoraiz
+Economics & Information Systems
