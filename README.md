@@ -74,6 +74,7 @@ batting_filtered <- subset(Batting, yearID >= 2000 & yearID <= 2015)
 hits_summary <- aggregate(H ~ playerID, data=batting_filtered, sum, na.rm = TRUE)
 
 head(hits_summary)
+```
 
 ## Insights
 - Winning teams rely more on strategic performance metrics than financial spending
